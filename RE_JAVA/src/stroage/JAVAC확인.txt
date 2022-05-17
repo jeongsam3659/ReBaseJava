@@ -1,0 +1,15 @@
+javac 확인
+
+https://1duri1.tistory.com/250
+
+1. 환경변수 확인
+ - JAVA_HOME 확인 
+	- JDK 확인
+ - Path 확인
+ - %JAVA_HOME% 확인 및 제일 상단.
+
+>>
+ jdk 경로가 잘못됨.
+ path에 JAVA가 없었음.
+>> 
+ 그래서 안된거였음 

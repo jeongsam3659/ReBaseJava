@@ -1,0 +1,13 @@
+package pj01.sec01;
+
+public class exam02 {
+	
+	public static void main(String[] args) {
+		int x;
+		x = 1;
+		int y = 2;
+		int result = x + y;
+		System.out.println(result);
+	}
+
+}
