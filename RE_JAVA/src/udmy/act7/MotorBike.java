@@ -8,9 +8,10 @@ public class MotorBike {
 	//name
 	void setSpeed(int speed) {
 		// 지역변수 local variable
-		System.out.println(speed); // 100
-		System.out.println(this.speed); // 0
-		this.speed = speed;
+		if(speed > 0) {
+			this.speed = speed;
+		}
+
 	}
 	
 	public int getSpeed() {
