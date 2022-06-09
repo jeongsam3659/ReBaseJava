@@ -8,8 +8,17 @@ public class Book {
 	}
 
 	public void setCopies(int copies) {
-		this.copies = copies;
-		this.copies+= 11;
+		if (copies > 0) { //양수를 구분짓고 저장.
+			this.copies = copies;
+		}
+	}
+
+	public void plusCopies(int count) {
+		//this.copies += count;
+		setCopies(this.copies + count);
 	}
 	
+	public void minusCopies(int count) {
+		setCopies(this.copies - count);
+	}
 }
