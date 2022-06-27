@@ -24,5 +24,7 @@ public class ArrayRunner {
 		for(int sorts:sortTmp) {
 			System.out.print(sorts);
 		}
+		
+		
 	}
 }
